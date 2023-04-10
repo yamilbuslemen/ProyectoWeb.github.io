@@ -1,0 +1,81 @@
+/*----aca arranca media queries----*/
+
+@media screen and (max-width: 1140px) {
+    .header {
+      display: flex;
+      width: 20%;
+      height: 20%;
+      font-size: 15px;
+    }
+    .links {
+      font-size: 15px;
+      flex-wrap: wrap;
+    }
+    h1 {
+      font-size: 25px;
+    }
+
+    .home {
+        height: 600px;
+        background-size: cover;
+          div {
+        height: 96%;     }
+           h2 {
+        font-size: $h2media;      }
+          h3 {
+        font-size: $h3media;      }
+        }
+  .boxeo:hover {
+    font-size: $h2hover;
+  }
+  .musculacion:hover {
+    font-size: $h2hover;
+  }
+  .funcional:hover {
+    font-size: $h2hover;
+  }
+  .crossfit:hover {
+    font-size: $h2hover;
+  }
+  .clasespers:hover {
+    font-size: 20px;
+  }
+  .gruposred:hover {
+    font-size: 20px;
+  }
+  .planif:hover {
+    font-size: 18px;
+  }    
+  .galeria {
+    width: 100%;
+  }
+  .servicios {
+    flex-wrap: wrap;
+  }
+  .textoservicios {
+    font-size: 10px;
+  
+      h2 {
+       font-size: $h2media;
+  }}
+  .contacto {
+    float: left;
+    margin-right: 25%;
+    width: 100%;
+    font-size: 25px;
+  }
+  .sobremi {
+    flex-wrap: wrap;
+  }
+  .textosobremi {
+    font-size: 10px;
+    width: 100vw;
+     h2 {
+        font-size: $h2media;
+      }
+  }
+  .fotosobremi img {
+    width: 100%;
+  }
+
+}

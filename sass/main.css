@@ -1,0 +1,316 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Bungee&family=Holtwood+One+SC&family=Oswald:wght@300&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+  background-color: blueviolet;
+  height: 70px;
+  align-items: center;
+  font-family: "Oswald", sans-serif;
+}
+
+.links {
+  display: flex;
+  justify-content: space-around;
+  width: 40vw;
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+.home {
+  background-image: url(../img/1513719_10204622197691631_1221807113591345236_n.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.homebox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  justify-content: space-around;
+  width: 100%;
+  font-size: 25px;
+  font-family: "Bungee";
+  font-weight: bold;
+}
+
+.box h2 {
+  border-radius: 20px;
+  font-size: 40px;
+}
+
+.boxeo:hover {
+  font-size: 60px;
+  color: rgb(220, 140, 20);
+}
+
+.musculacion:hover {
+  font-size: 60px;
+  color: rgb(220, 140, 20);
+}
+
+.funcional:hover {
+  font-size: 60px;
+  color: rgb(220, 140, 20);
+}
+
+.crossfit:hover {
+  font-size: 60px;
+  color: rgb(220, 140, 20);
+}
+
+.clasespers:hover {
+  font-size: 50px;
+  color: deeppink;
+}
+
+.gruposred:hover {
+  font-size: 50px;
+  color: deeppink;
+}
+
+.planif:hover {
+  font-size: 50px;
+  color: deeppink;
+}
+
+.seguimientos:hover {
+  font-size: 50px;
+  color: deeppink;
+}
+
+footer {
+  display: flex;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  font-size: medium;
+  justify-content: space-around;
+}
+
+/*----aca arranca galeria----*/
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: brown;
+  gap: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/*----aca arranca sobre mi----*/
+.sobremi {
+  display: flex;
+}
+
+.fotosobremi img {
+  height: 100%;
+  width: 100%;
+}
+
+.textosobremi {
+  text-align: center;
+  background-color: aquamarine;
+  width: 60%;
+  font-family: "Holtwood One SC", serif;
+}
+.textosobremi h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.textosobremi p {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/*----aca arranca servicios----*/
+.servicios {
+  display: flex;
+}
+
+.fotoservicios img {
+  height: 100%;
+  width: 100%;
+}
+
+.textoservicios {
+  background-color: aquamarine;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  font-family: "Holtwood One SC", serif;
+}
+.textoservicios h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.textoservicios p {
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/*----aca arranca contacto----*/
+.contacto {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: brown;
+  height: 100%;
+  width: 100%;
+  transition: all 1s;
+  gap: 30px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 30px;
+  font-family: "Oswald", sans-serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.link1:hover {
+  font-size: 60px;
+}
+
+.link2:hover {
+  font-size: 60px;
+}
+
+.link3:hover {
+  font-size: 60px;
+}
+
+.link4:hover {
+  font-size: 60px;
+}
+
+.links2 ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 300px;
+}
+
+.nombre {
+  width: 200px;
+  transition: all 1s;
+}
+.nombre :focus {
+  width: 300px;
+}
+
+.apellido {
+  width: 200px;
+  transition: all 1s;
+}
+.apellido :focus {
+  width: 300px;
+}
+
+.ingreseconsulta {
+  width: 200px;
+  transition: all 1s;
+}
+.ingreseconsulta :focus {
+  height: 50px;
+  width: 300px;
+}
+
+/*----aca arranca media queries----*/
+@media screen and (max-width: 1140px) {
+  .header {
+    display: flex;
+    width: 20%;
+    height: 20%;
+    font-size: 15px;
+  }
+  .links {
+    font-size: 15px;
+    flex-wrap: wrap;
+  }
+  h1 {
+    font-size: 25px;
+  }
+  .home {
+    height: 600px;
+    background-size: cover;
+  }
+  .home div {
+    height: 96%;
+  }
+  .home h2 {
+    font-size: 24px;
+  }
+  .home h3 {
+    font-size: 15px;
+  }
+  .boxeo:hover {
+    font-size: 40px;
+  }
+  .musculacion:hover {
+    font-size: 40px;
+  }
+  .funcional:hover {
+    font-size: 40px;
+  }
+  .crossfit:hover {
+    font-size: 40px;
+  }
+  .clasespers:hover {
+    font-size: 20px;
+  }
+  .gruposred:hover {
+    font-size: 20px;
+  }
+  .planif:hover {
+    font-size: 18px;
+  }
+  .galeria {
+    width: 100%;
+  }
+  .servicios {
+    flex-wrap: wrap;
+  }
+  .textoservicios {
+    font-size: 10px;
+  }
+  .textoservicios h2 {
+    font-size: 24px;
+  }
+  .contacto {
+    float: left;
+    margin-right: 25%;
+    width: 100%;
+    font-size: 25px;
+  }
+  .sobremi {
+    flex-wrap: wrap;
+  }
+  .textosobremi {
+    font-size: 10px;
+    width: 100vw;
+  }
+  .textosobremi h2 {
+    font-size: 24px;
+  }
+  .fotosobremi img {
+    width: 100%;
+  }
+}/*# sourceMappingURL=main.css.map */

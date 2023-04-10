@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+      display: flex;
+      justify-content: space-around;
+      text-align: left;
+      background-color: blueviolet;
+      height: 70px;
+      align-items: center;
+      font-family: "Oswald", sans-serif;
+    }
+  
+  .links {
+      display: flex;
+      justify-content: space-around;
+      width: 40vw;
+      font-size: 20px;
+    }
+  h1 {
+      font-size: 1.5rem;
+    }
+  
